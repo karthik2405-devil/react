@@ -10,10 +10,9 @@ const initialState = [
 ];
 
 const productSlice = createSlice({
-    name: "products",
-    initialState,
-    reducers: {},
-  });
-  
-  export default productSlice.reducer;
-  
+  name: "products",
+  initialState,
+  reducers: {},
+});
+
+export default productSlice.reducer;
